@@ -1,8 +1,10 @@
-import React from 'react'
-
+import Calculator from "./Calculator"
 const Main = () => {
   return (
-    <main className='mt-10 mx-auto w-fit'> Main Element</main>
+    <main className=' h-screen w-screen flex items-center flex-col justify-center gap-10 '>
+        <h1 className=' text-4xl font-bold'>Calculator</h1> 
+        <Calculator />
+    </main>
   )
 }
 
